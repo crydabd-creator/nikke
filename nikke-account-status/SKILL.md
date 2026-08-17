@@ -1,0 +1,44 @@
+---
+name: nikke-account-status
+description: "사용자의 GODDESS OF VICTORY: NIKKE 계정 육성 현황을 기준 자료로 제공한다. NIKKE 덱 구성, 솔로 레이드, 유니온 레이드, 캐릭터 육성, 재화 사용 및 투자 우선순위를 분석하거나 사용자의 보유 캐릭터·돌파·코어 강화·스킬·애장품·소장품·오버로드 장비 상태를 확인·갱신할 때 사용한다."
+---
+
+# NIKKE 계정 육성 현황
+
+## 기준 자료 읽기
+
+NIKKE 관련 분석을 시작하기 전에 [account-status.md](references/account-status.md)를 읽는다.
+
+질문에 필요한 세부 정보는 다음 자료에서 추가로 읽는다.
+
+- 전투력, 스킬 레벨, 오버로드 부위 요약: [combat-status.md](references/combat-status.md)
+- 오버로드 부위별 옵션: [overload-details.md](references/overload-details.md)
+- 스킬명과 레벨: [skill-details.md](references/skill-details.md)
+- 소장품·애장품: [collection-details.md](references/collection-details.md)
+- 속성: [element-classification.md](references/element-classification.md)
+- 무기: [weapon-classification.md](references/weapon-classification.md)
+- 버스트 단계: [burst-classification.md](references/burst-classification.md)
+- 유형: [class-classification.md](references/class-classification.md)
+
+## 적용 원칙
+
+1. 기준 자료와 현재 대화에서 사용자가 직접 제공한 정보를 우선한다.
+2. 캐릭터별 상태를 보유 여부, 한계돌파 또는 코어 강화, 스킬 1/2/버스트, 애장품 또는 소장품, 오버로드 장비와 옵션으로 분리한다.
+3. 자료에 없는 값은 `미확인`으로 취급한다. 보유 여부나 육성 상태를 추측하지 않는다.
+4. 사용자가 현재 대화에서 새 획득이나 육성 변경을 알리면 그 최신 정보를 기존 기준 자료보다 우선한다.
+5. 충돌하는 정보는 날짜가 더 최신인 사용자의 직접 진술을 우선한다. 최신 여부를 판단할 수 없으면 확인한다.
+6. 분석에 필요한 핵심 정보가 없으면 결론을 단정하지 말고 사용자에게 짧게 확인한다.
+7. 최신 스킬 수치, 패치, 보스 기믹 또는 메타가 필요하면 현재 자료로 별도 검증한다. 계정 정보와 게임 일반 정보를 혼동하지 않는다.
+
+## 분석 방법
+
+- 덱을 제안할 때 실제 보유가 확인된 캐릭터를 우선 사용한다.
+- 솔로 레이드와 유니온 레이드는 캐릭터 중복을 피하고 각 파티의 버스트 단계, 쿨타임, 속성, 기믹 대응을 점검한다.
+- 투자 우선순위는 목표 콘텐츠, 예상 기여도, 현재 육성도, 추가 비용을 함께 비교한다.
+- 미육성 캐릭터는 필요한 투자를 명시하고 즉시 투입 가능한 캐릭터와 구분한다.
+- 확인된 사실과 조건부 판단을 구분한다.
+
+## 갱신 방법
+
+사용자가 상태 변경을 알리면 이번 분석에 즉시 반영한다. 기준 자료 자체의 업데이트를 요청하면 [account-status.md](references/account-status.md)의 해당 항목만 수정하고 확인되지 않은 다른 항목은 유지한다.
+
