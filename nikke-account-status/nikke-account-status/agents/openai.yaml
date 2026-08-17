@@ -1,0 +1,14 @@
+interface:
+  display_name: NIKKE 계정 육성 현황
+  short_description: 니케 계정 보유·돌파·스킬·장비 육성 상태 기준 자료
+  default_prompt: Use $nikke-account-status to analyze my current NIKKE roster and
+    investment priorities.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
