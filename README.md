@@ -1,1 +1,1 @@
-니케 DB
+![NIKKE Personal Database](./nikke-database-banner.png)
