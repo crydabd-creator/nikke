@@ -57,4 +57,3 @@ Treat the user's verified results as the primary personal evidence base. Optimiz
 
 Lead with an actionable recommendation. Connect current account state, relevant personal records, and current boss mechanics. Use compact tables for five-team comparisons or retry priorities. Distinguish facts, inferences, and unknowns. End with the next test or data needed when appropriate.
 
-

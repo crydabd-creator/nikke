@@ -30,3 +30,4 @@ NIKKE 관련 분석을 시작하기 전에 [account-status.md](references/accoun
 ## 갱신 방법
 
 사용자가 상태 변경을 알리면 이번 분석에 즉시 반영한다. 기준 자료 자체의 업데이트를 요청하면 [account-status.md](references/account-status.md)의 해당 항목만 수정하고 확인되지 않은 다른 항목은 유지한다.
+

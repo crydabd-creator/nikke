@@ -2,4 +2,3 @@ interface:
   display_name: "NIKKE 솔로 레이드 기록 및 분석"
   short_description: "개인 실전 기록 기반 NIKKE 솔로 레이드 5덱 분석"
   default_prompt: "Use $nikke-solo-raid-analysis to record my latest Solo Raid results and recommend the highest-impact next improvement."
-
