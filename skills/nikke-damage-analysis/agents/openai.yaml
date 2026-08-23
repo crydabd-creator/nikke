@@ -1,0 +1,5 @@
+interface:
+  display_name: "NIKKE 딜 메커니즘 분석"
+  short_description: "계정·보스·실전 기록을 결합한 NIKKE 딜 분석"
+  default_prompt: "Use $nikke-damage-analysis to analyze this NIKKE character, team, build, or Solo Raid setup."
+
