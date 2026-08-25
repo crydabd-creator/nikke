@@ -1,0 +1,62 @@
+name: Publish NIKKE account skill
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - nikke-account-status/SKILL.md
+      - nikke-account-status/agents/openai.yaml
+      - nikke-account-status/assets/**
+      - nikke-account-status/references/**
+      - scripts/package_nikke_account_skill.py
+      - scripts/publish_openai_skill.py
+      - .github/workflows/publish-nikke-account-skill.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-nikke-account-skill
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Package canonical Markdown skill
+        run: python scripts/package_nikke_account_skill.py
+
+      - name: Validate upload bundle
+        run: python scripts/publish_openai_skill.py --dry-run dist/nikke-account-status.zip
+
+      - name: Keep downloadable skill package
+        uses: actions/upload-artifact@v4
+        with:
+          name: nikke-account-status-skill
+          path: dist/nikke-account-status.zip
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Publish the latest default OpenAI skill version
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_SKILL_ID: ${{ secrets.OPENAI_SKILL_ID }}
+          OPENAI_ORGANIZATION: ${{ secrets.OPENAI_ORGANIZATION }}
+          OPENAI_PROJECT: ${{ secrets.OPENAI_PROJECT }}
+        shell: bash
+        run: |
+          if [[ -z "$OPENAI_API_KEY" ]]; then
+            echo "::notice::OPENAI_API_KEY is not configured; the validated ZIP artifact was created, but automatic OpenAI publishing was skipped."
+            exit 0
+          fi
+          python scripts/publish_openai_skill.py dist/nikke-account-status.zip
