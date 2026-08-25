@@ -9,6 +9,8 @@ description: "사용자의 GODDESS OF VICTORY: NIKKE 계정 육성 현황을 기
 
 NIKKE 관련 분석을 시작하기 전에 [account-status.md](references/account-status.md)를 읽는다.
 
+references/의 Markdown 문서가 계정 DB의 기준 자료다. `site-account-data.json`은 사이트 표시·편집용 자동 생성 캐시이므로 분석의 기준 자료로 사용하지 않는다.
+
 ## 적용 원칙
 
 1. 기준 자료와 현재 대화에서 사용자가 직접 제공한 정보를 우선한다.
@@ -30,12 +32,3 @@ NIKKE 관련 분석을 시작하기 전에 [account-status.md](references/accoun
 ## 갱신 방법
 
 사용자가 상태 변경을 알리면 이번 분석에 즉시 반영한다. 기준 자료 자체의 업데이트를 요청하면 [account-status.md](references/account-status.md)의 해당 항목만 수정하고 확인되지 않은 다른 항목은 유지한다.
-
-<!-- OH-MY-COMMANDER:sync-policy:START -->
-## 사이트 동기화 자료
-
-1. 계정 분석 시 [site-account-data.json](references/site-account-data.json)을 사이트 입력값의 단일 원본으로 읽는다.
-2. reference 문서의 `OH-MY-COMMANDER` 마커 구간은 이 원본에서 자동 생성된 최신 요약이다. 같은 항목이 수동 기록과 충돌하면 자동 관리 구간의 값을 우선한다.
-3. 마커 밖의 운용 메모, 분석 주석, 과거 기록은 자동 동기화 대상이 아니므로 유지한다.
-4. 사용자가 기준 자료 자체의 갱신을 요청하면 가능한 경우 사이트 원본을 먼저 갱신하고 PR로 반영한다.
-<!-- OH-MY-COMMANDER:sync-policy:END -->
