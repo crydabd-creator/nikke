@@ -11,6 +11,18 @@ NIKKE 관련 분석을 시작하기 전에 [account-status.md](references/accoun
 
 references/의 Markdown 문서가 계정 DB의 기준 자료다. `site-account-data.json`은 사이트 표시·편집용 자동 생성 캐시이므로 분석의 기준 자료로 사용하지 않는다.
 
+웹 접근이 가능하면 분석 전에 GitHub `main`의 최신 [account-status.md](https://raw.githubusercontent.com/crydabd-creator/nikke/main/nikke-account-status/references/account-status.md)를 다시 읽고, 이 스킬에 포함된 로컬 사본보다 우선한다. 원격 문서를 읽지 못할 때만 로컬 `references/` 사본을 대체 자료로 사용하고, 이 경우 최신 사이트 수정이 아직 반영되지 않았을 수 있다고 알린다.
+
+질문 종류에 따라 아래 원격 문서를 추가로 읽는다.
+
+- 캐릭터 전투력·레벨·육성 상태: [combat-status.md](https://raw.githubusercontent.com/crydabd-creator/nikke/main/nikke-account-status/references/combat-status.md)
+- 스킬 레벨·상세: [skill-details.md](https://raw.githubusercontent.com/crydabd-creator/nikke/main/nikke-account-status/references/skill-details.md)
+- 오버로드 부위별 옵션: [overload-details.md](https://raw.githubusercontent.com/crydabd-creator/nikke/main/nikke-account-status/references/overload-details.md)
+- 소장품·애장품: [collection-details.md](https://raw.githubusercontent.com/crydabd-creator/nikke/main/nikke-account-status/references/collection-details.md)
+- 속성·무기·버스트·클래스: 해당 `element-classification.md`, `weapon-classification.md`, `burst-classification.md`, `class-classification.md`
+
+원격 문서와 로컬 사본이 다르면 원격 GitHub `main` 문서를 우선한다. 사이트에서 생성한 PR이 아직 병합되지 않았다면 GitHub에 반영되지 않은 정보이므로 병합 전 자료가 최신 기준이다.
+
 ## 적용 원칙
 
 1. 기준 자료와 현재 대화에서 사용자가 직접 제공한 정보를 우선한다.
