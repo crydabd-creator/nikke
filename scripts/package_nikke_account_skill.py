@@ -23,6 +23,7 @@ REQUIRED_FILES = {
     "references/weapon-classification.md",
     "references/burst-classification.md",
     "references/class-classification.md",
+    "scripts/sync_account_db.py",
 }
 
 

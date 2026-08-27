@@ -9,7 +9,7 @@ description: "사용자의 GODDESS OF VICTORY: NIKKE 계정 육성 현황을 기
 
 NIKKE 관련 분석을 시작하기 전에 [account-status.md](references/account-status.md)를 읽는다.
 
-references/의 Markdown 문서가 계정 DB의 기준 자료다. `site-account-data.json`은 사이트 표시·편집용 자동 생성 캐시이므로 분석의 기준 자료로 사용하지 않는다.
+`references/`의 Markdown 문서가 계정 DB의 유일한 기준 자료다. `site-account-data.json`과 `agents/skills/nikke-account-status/`는 자동 생성 결과이므로 분석하거나 수정할 때 독립 원본으로 사용하지 않는다.
 
 웹 접근이 가능하면 분석 전에 GitHub `main`의 최신 [account-status.md](https://raw.githubusercontent.com/crydabd-creator/nikke/main/nikke-account-status/references/account-status.md)를 다시 읽고, 이 스킬에 포함된 로컬 사본보다 우선한다. 원격 문서를 읽지 못할 때만 로컬 `references/` 사본을 대체 자료로 사용하고, 이 경우 최신 사이트 수정이 아직 반영되지 않았을 수 있다고 알린다.
 
@@ -43,4 +43,15 @@ references/의 Markdown 문서가 계정 DB의 기준 자료다. `site-account-d
 
 ## 갱신 방법
 
-사용자가 상태 변경을 알리면 이번 분석에 즉시 반영한다. 기준 자료 자체의 업데이트를 요청하면 [account-status.md](references/account-status.md)의 해당 항목만 수정하고 확인되지 않은 다른 항목은 유지한다.
+사용자가 상태 변경을 알리면 이번 분석에 즉시 반영한다. 기준 자료 자체의 업데이트를 요청하면 GitHub 저장소 `crydabd-creator/nikke`의 `nikke-account-status/references/`에 있는 canonical Markdown을 먼저 갱신한다. 설치되거나 배포된 스킬 패키지 내부 복사본만 수정한 채 완료했다고 보고하지 않는다.
+
+- 계정 전체 상태: [account-status.md](references/account-status.md)
+- 캐릭터 전투력·레벨·육성 상태: [combat-status.md](references/combat-status.md)와 이를 사용하는 요약
+- 스킬 레벨·상세: [skill-details.md](references/skill-details.md)와 이를 사용하는 요약
+- 부위별 오버로드: [overload-details.md](references/overload-details.md)와 이를 사용하는 요약
+- 소장품·애장품: [collection-details.md](references/collection-details.md)와 이를 사용하는 요약
+- 속성·무기·버스트·클래스: 해당 `*-classification.md`
+
+같은 요약값이 여러 문서에 있으면 함께 맞춘다. Markdown 수정 뒤 저장소 루트에서 `python nikke-account-status/scripts/sync_account_db.py --repo-root . --write`를 실행하고, 이어서 `--check`로 검증한다. 이 단계가 canonical Markdown을 다시 읽어 `site-account-data.json`을 재생성하고 `agents/skills/nikke-account-status/` 복사본을 동일하게 맞춘다.
+
+변경은 GitHub 커밋 또는 PR로 반영한다. 저장소 쓰기 권한이나 GitHub 연결이 없다면 canonical DB에 반영되지 않았음을 분명히 알리고 중단한다. `site-account-data.json`이나 스킬 패키지 내부 mirror를 직접 편집하여 우회하지 않는다. 확인되지 않은 다른 항목과 기존 상세 기록·수동 메모·레이드용 데이터는 삭제하거나 덮어쓰지 않는다.
