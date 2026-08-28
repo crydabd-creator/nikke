@@ -1,0 +1,1505 @@
+{
+  "아니스 : 스타": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "TETRA",
+    "weapon": "RL",
+    "element": "전격",
+    "burst": "Ⅰ",
+    "order": 10136
+  },
+  "네온 : 비전 아이": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "RL",
+    "element": "전격",
+    "burst": "Ⅲ",
+    "order": 10086
+  },
+  "헬름": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "SR",
+    "element": "수냉",
+    "burst": "Ⅲ",
+    "order": 10017
+  },
+  "스노우 화이트 : 헤비암즈": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "PILGRIM",
+    "weapon": "SR",
+    "element": "수냉",
+    "burst": "Ⅲ",
+    "order": 10161
+  },
+  "라피 : 레드 후드": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "MG",
+    "element": "작열",
+    "burst": "Ⅲ",
+    "order": 10031
+  },
+  "리버렐리오": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "PILGRIM",
+    "weapon": "SR",
+    "element": "풍압",
+    "burst": "Ⅲ",
+    "order": 10159
+  },
+  "목단": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "TETRA",
+    "weapon": "AR",
+    "element": "전격",
+    "burst": "Ⅰ",
+    "order": 10121
+  },
+  "홍련 : 흑영": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "PILGRIM",
+    "weapon": "RL",
+    "element": "풍압",
+    "burst": "Ⅲ",
+    "order": 10151
+  },
+  "토브": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "MISSILIS",
+    "weapon": "AR",
+    "element": "수냉",
+    "burst": "Ⅰ",
+    "order": 10073
+  },
+  "마스트 : 로망틱 메이드": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "MG",
+    "element": "수냉",
+    "burst": "Ⅱ",
+    "order": 10032
+  },
+  "신데렐라 : 크리스탈 웨이브": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "PILGRIM",
+    "weapon": "MG",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 10162
+  },
+  "크라운": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "PILGRIM",
+    "weapon": "MG",
+    "element": "철갑",
+    "burst": "Ⅱ",
+    "order": 10152
+  },
+  "레드 후드": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "PILGRIM",
+    "weapon": "SR",
+    "element": "철갑",
+    "burst": "AllStep",
+    "order": 10149
+  },
+  "벨벳": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "SR",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 10135
+  },
+  "앵커 : 이노센트 메이드": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "RL",
+    "element": "수냉",
+    "burst": "Ⅱ",
+    "order": 10033
+  },
+  "나유타": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "PILGRIM",
+    "weapon": "SMG",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 10158
+  },
+  "드레이크": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "SG",
+    "element": "작열",
+    "burst": "Ⅲ",
+    "order": 10054
+  },
+  "레이븐": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ABNORMAL",
+    "weapon": "RL",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 10175
+  },
+  "마르차나 : 마린 스터디": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "AR",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 10048
+  },
+  "프리바티": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "AR",
+    "element": "수냉",
+    "burst": "Ⅲ",
+    "order": 10002
+  },
+  "브리드 : 사일런트 트랙": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "SG",
+    "element": "작열",
+    "burst": "Ⅱ",
+    "order": 10043
+  },
+  "리틀 머메이드": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "PILGRIM",
+    "weapon": "SMG",
+    "element": "풍압",
+    "burst": "Ⅰ",
+    "order": 10156
+  },
+  "민트": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "RL",
+    "element": "철갑",
+    "burst": "Ⅱ",
+    "order": 10137
+  },
+  "프리카": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "SR",
+    "element": "수냉",
+    "burst": "Ⅱ",
+    "order": 10138
+  },
+  "디젤 : 윈터 스위츠": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "RL",
+    "element": "작열",
+    "burst": "Ⅲ",
+    "order": 10042
+  },
+  "아인": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "SR",
+    "element": "전격",
+    "burst": "Ⅲ",
+    "order": 10077
+  },
+  "비스킷": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "RL",
+    "element": "전격",
+    "burst": "Ⅱ",
+    "order": 10108
+  },
+  "나가": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "MISSILIS",
+    "weapon": "SG",
+    "element": "전격",
+    "burst": "Ⅱ",
+    "order": 10071
+  },
+  "미란다": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "SMG",
+    "element": "작열",
+    "burst": "Ⅰ",
+    "order": 10005
+  },
+  "리타": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "MISSILIS",
+    "weapon": "SMG",
+    "element": "철갑",
+    "burst": "Ⅰ",
+    "order": 10051
+  },
+  "에이드 : 에이전트 바니": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "SR",
+    "element": "철갑",
+    "burst": "Ⅱ",
+    "order": 10134
+  },
+  "앨리스": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "SR",
+    "element": "작열",
+    "burst": "Ⅲ",
+    "order": 10091
+  },
+  "D : 킬러 와이프": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "SR",
+    "element": "작열",
+    "burst": "Ⅰ",
+    "order": 10026
+  },
+  "밀크 : 블루밍 바니": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "SR",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 10133
+  },
+  "아크레인저 블랙": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "AR",
+    "element": "풍압",
+    "burst": "Ⅲ",
+    "order": 10139
+  },
+  "자칼": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "MISSILIS",
+    "weapon": "RL",
+    "element": "철갑",
+    "burst": "Ⅰ",
+    "order": 10058
+  },
+  "헬름 : 아쿠아마린": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "AR",
+    "element": "철갑",
+    "burst": "Ⅱ",
+    "order": 10022
+  },
+  "치사토": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ABNORMAL",
+    "weapon": "SMG",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 10178
+  },
+  "티아": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "MISSILIS",
+    "weapon": "RL",
+    "element": "철갑",
+    "burst": "Ⅰ",
+    "order": 10072
+  },
+  "이브": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ABNORMAL",
+    "weapon": "AR",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 10174
+  },
+  "볼륨": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "SMG",
+    "element": "풍압",
+    "burst": "Ⅰ",
+    "order": 10112
+  },
+  "아니스 : 스파클링 서머": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "SG",
+    "element": "전격",
+    "burst": "Ⅲ",
+    "order": 10117
+  },
+  "신데렐라": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "PILGRIM",
+    "weapon": "RL",
+    "element": "전격",
+    "burst": "Ⅲ",
+    "order": 10154
+  },
+  "타키나": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ABNORMAL",
+    "weapon": "SR",
+    "element": "철갑",
+    "burst": "Ⅱ",
+    "order": 10179
+  },
+  "소다 : 트윙클링 바니": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "SG",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 10124
+  },
+  "트리나": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "MISSILIS",
+    "weapon": "RL",
+    "element": "전격",
+    "burst": "Ⅱ",
+    "order": 10081
+  },
+  "크러스트": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "RL",
+    "element": "수냉",
+    "burst": "Ⅱ",
+    "order": 10132
+  },
+  "로산나": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "MG",
+    "element": "전격",
+    "burst": "Ⅰ",
+    "order": 10114
+  },
+  "노벨": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "TETRA",
+    "weapon": "SMG",
+    "element": "철갑",
+    "burst": "Ⅱ",
+    "order": 10102
+  },
+  "루피": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "AR",
+    "element": "철갑",
+    "burst": "Ⅱ",
+    "order": 10099
+  },
+  "사쿠라 : 블룸 인 서머": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "AR",
+    "element": "풍압",
+    "burst": "Ⅲ",
+    "order": 10128
+  },
+  "슈가": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "SG",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 10089
+  },
+  "바이퍼": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "SG",
+    "element": "수냉",
+    "burst": "Ⅱ",
+    "order": 10105
+  },
+  "이사벨": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "PILGRIM",
+    "weapon": "SG",
+    "element": "전격",
+    "burst": "Ⅲ",
+    "order": 10141
+  },
+  "도로시 : 세렌디피티": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "PILGRIM",
+    "weapon": "SG",
+    "element": "수냉",
+    "burst": "Ⅲ",
+    "order": 10157
+  },
+  "에이드": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "AR",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 10122
+  },
+  "얀": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "RL",
+    "element": "작열",
+    "burst": "Ⅰ",
+    "order": 10100
+  },
+  "폴크방": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "TETRA",
+    "weapon": "AR",
+    "element": "수냉",
+    "burst": "Ⅱ",
+    "order": 10103
+  },
+  "베이": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "TETRA",
+    "weapon": "RL",
+    "element": "작열",
+    "burst": "Ⅱ",
+    "order": 10123
+  },
+  "루마니": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "TETRA",
+    "weapon": "RL",
+    "element": "작열",
+    "burst": "Ⅰ",
+    "order": 10130
+  },
+  "메어리": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "SG",
+    "element": "수냉",
+    "burst": "Ⅰ",
+    "order": 10095
+  },
+  "브래디": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "SR",
+    "element": "수냉",
+    "burst": "Ⅲ",
+    "order": 10131
+  },
+  "네로": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "TETRA",
+    "weapon": "SMG",
+    "element": "작열",
+    "burst": "Ⅱ",
+    "order": 10116
+  },
+  "밀크": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "SR",
+    "element": "수냉",
+    "burst": "Ⅰ",
+    "order": 10096
+  },
+  "일레그 : 붐 앤 쇼크": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "MG",
+    "element": "수냉",
+    "burst": "Ⅲ",
+    "order": 10084
+  },
+  "아리아": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "MG",
+    "element": "수냉",
+    "burst": "Ⅱ",
+    "order": 10110
+  },
+  "클레이": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "SMG",
+    "element": "전격",
+    "burst": "Ⅱ",
+    "order": 10126
+  },
+  "사쿠라": {
+    "rarity": "SR",
+    "class": "Supporter",
+    "corporation": "ABNORMAL",
+    "weapon": "SMG",
+    "element": "수냉",
+    "burst": "Ⅰ",
+    "order": 30024
+  },
+  "루주": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "SR",
+    "element": "전격",
+    "burst": "Ⅰ",
+    "order": 10129
+  },
+  "엑시아": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "SR",
+    "element": "전격",
+    "burst": "Ⅰ",
+    "order": 10090
+  },
+  "소다": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "MG",
+    "element": "작열",
+    "burst": "Ⅰ",
+    "order": 10107
+  },
+  "라이": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "TETRA",
+    "weapon": "SMG",
+    "element": "수냉",
+    "burst": "Ⅰ",
+    "order": 10109
+  },
+  "미하라 : 본딩 체인": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "MG",
+    "element": "작열",
+    "burst": "Ⅲ",
+    "order": 10082
+  },
+  "레이블": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "ELYSION",
+    "weapon": "AR",
+    "element": "철갑",
+    "burst": "Ⅰ",
+    "order": 10044
+  },
+  "E.H.": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "SMG",
+    "element": "풍압",
+    "burst": "Ⅲ",
+    "order": 10045
+  },
+  "퀀시 : 이스케이프 퀸": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "SMG",
+    "element": "수냉",
+    "burst": "Ⅲ",
+    "order": 10078
+  },
+  "아르카나 : 포츈 메이트": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "SG",
+    "element": "작열",
+    "burst": "Ⅱ",
+    "order": 10046
+  },
+  "노아": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "PILGRIM",
+    "weapon": "RL",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 10145
+  },
+  "노이즈": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "RL",
+    "element": "전격",
+    "burst": "Ⅰ",
+    "order": 10111
+  },
+  "아르카나": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "RL",
+    "element": "전격",
+    "burst": "Ⅱ",
+    "order": 10034
+  },
+  "레오나": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "SG",
+    "element": "수냉",
+    "burst": "Ⅱ",
+    "order": 10120
+  },
+  "프림": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "SR",
+    "element": "철갑",
+    "burst": "Ⅰ",
+    "order": 10094
+  },
+  "라플라스": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "RL",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 10059
+  },
+  "마나": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "AR",
+    "element": "풍압",
+    "burst": "Ⅲ",
+    "order": 10080
+  },
+  "율리아": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "AR",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 10052
+  },
+  "그레이브": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "PILGRIM",
+    "weapon": "AR",
+    "element": "작열",
+    "burst": "Ⅱ",
+    "order": 10155
+  },
+  "센티": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "MISSILIS",
+    "weapon": "RL",
+    "element": "철갑",
+    "burst": "Ⅱ",
+    "order": 10053
+  },
+  "소라": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "RL",
+    "element": "풍압",
+    "burst": "Ⅰ",
+    "order": 10036
+  },
+  "앨리스 : 원더랜드 바니": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "SMG",
+    "element": "수냉",
+    "burst": "Ⅰ",
+    "order": 10125
+  },
+  "미하라": {
+    "rarity": "SR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "AR",
+    "element": "수냉",
+    "burst": "Ⅲ",
+    "order": 30011
+  },
+  "라피": {
+    "rarity": "SR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "AR",
+    "element": "작열",
+    "burst": "Ⅲ",
+    "order": 30001
+  },
+  "벨로타": {
+    "rarity": "SR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "RL",
+    "element": "전격",
+    "burst": "Ⅱ",
+    "order": 30017
+  },
+  "네베": {
+    "rarity": "SR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "SG",
+    "element": "수냉",
+    "burst": "Ⅲ",
+    "order": 30019
+  },
+  "솔린 : 프로스트 티켓": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "SG",
+    "element": "수냉",
+    "burst": "Ⅰ",
+    "order": 10041
+  },
+  "에테르": {
+    "rarity": "SR",
+    "class": "Defender",
+    "corporation": "MISSILIS",
+    "weapon": "SG",
+    "element": "전격",
+    "burst": "Ⅰ",
+    "order": 30013
+  },
+  "맥스웰": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "SR",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 10049
+  },
+  "아니스": {
+    "rarity": "SR",
+    "class": "Defender",
+    "corporation": "TETRA",
+    "weapon": "RL",
+    "element": "철갑",
+    "burst": "Ⅱ",
+    "order": 30014
+  },
+  "N102": {
+    "rarity": "SR",
+    "class": "Supporter",
+    "corporation": "MISSILIS",
+    "weapon": "RL",
+    "element": "수냉",
+    "burst": "Ⅰ",
+    "order": 30012
+  },
+  "델타": {
+    "rarity": "SR",
+    "class": "Defender",
+    "corporation": "ELYSION",
+    "weapon": "SR",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 30005
+  },
+  "미카": {
+    "rarity": "SR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "RL",
+    "element": "풍압",
+    "burst": "Ⅰ",
+    "order": 30018
+  },
+  "네온": {
+    "rarity": "SR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "SG",
+    "element": "작열",
+    "burst": "Ⅰ",
+    "order": 30004
+  },
+  "마스트": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "SMG",
+    "element": "전격",
+    "burst": "Ⅱ",
+    "order": 10019
+  },
+  "도라": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "SR",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 10101
+  },
+  "츠바이": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "SG",
+    "element": "전격",
+    "burst": "Ⅰ",
+    "order": 10027
+  },
+  "스노우 화이트 : 이노센트 데이즈": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "PILGRIM",
+    "weapon": "AR",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 10150
+  },
+  "스노우 화이트": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "PILGRIM",
+    "weapon": "AR",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 10140
+  },
+  "브리드": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "AR",
+    "element": "수냉",
+    "burst": "Ⅲ",
+    "order": 10006
+  },
+  "베스티 : 택티컬 업": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "RL",
+    "element": "작열",
+    "burst": "Ⅲ",
+    "order": 10038
+  },
+  "베스티": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "RL",
+    "element": "수냉",
+    "burst": "Ⅲ",
+    "order": 10009
+  },
+  "트로니": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "SR",
+    "element": "작열",
+    "burst": "Ⅲ",
+    "order": 10076
+  },
+  "누아르": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "SG",
+    "element": "풍압",
+    "burst": "Ⅲ",
+    "order": 10093
+  },
+  "메이든": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "SG",
+    "element": "전격",
+    "burst": "Ⅲ",
+    "order": 10012
+  },
+  "K": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "SMG",
+    "element": "전격",
+    "burst": "Ⅲ",
+    "order": 10035
+  },
+  "D": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "SMG",
+    "element": "풍압",
+    "burst": "Ⅲ",
+    "order": 10013
+  },
+  "율하": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "TETRA",
+    "weapon": "SR",
+    "element": "작열",
+    "burst": "Ⅲ",
+    "order": 10097
+  },
+  "은화 : 택티컬 업": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "SR",
+    "element": "작열",
+    "burst": "Ⅱ",
+    "order": 10039
+  },
+  "라푼젤 : 퓨어 그레이스": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "PILGRIM",
+    "weapon": "SR",
+    "element": "철갑",
+    "burst": "Ⅰ",
+    "order": 10153
+  },
+  "라푼젤": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "PILGRIM",
+    "weapon": "RL",
+    "element": "철갑",
+    "burst": "Ⅰ",
+    "order": 10142
+  },
+  "모리": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "MISSILIS",
+    "weapon": "AR",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 10083
+  },
+  "블랑": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "TETRA",
+    "weapon": "AR",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 10092
+  },
+  "폴리": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "ELYSION",
+    "weapon": "SG",
+    "element": "수냉",
+    "burst": "Ⅱ",
+    "order": 10004
+  },
+  "백학": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "MISSILIS",
+    "weapon": "SR",
+    "element": "수냉",
+    "burst": "Ⅱ",
+    "order": 10085
+  },
+  "델타 : 닌자 시프": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "ELYSION",
+    "weapon": "MG",
+    "element": "수냉",
+    "burst": "Ⅱ",
+    "order": 10040
+  },
+  "디젤": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "ELYSION",
+    "weapon": "MG",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 10008
+  },
+  "마르차나": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "SG",
+    "element": "철갑",
+    "burst": "Ⅱ",
+    "order": 10023
+  },
+  "일레그": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "MISSILIS",
+    "weapon": "MG",
+    "element": "전격",
+    "burst": "Ⅱ",
+    "order": 10074
+  },
+  "플로라": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "MISSILIS",
+    "weapon": "MG",
+    "element": "전격",
+    "burst": "Ⅱ",
+    "order": 10079
+  },
+  "유니": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "MISSILIS",
+    "weapon": "RL",
+    "element": "작열",
+    "burst": "Ⅱ",
+    "order": 10050
+  },
+  "아비스타": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "MG",
+    "element": "전격",
+    "burst": "Ⅰ",
+    "order": 10047
+  },
+  "엠마 : 택티컬 업": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "MG",
+    "element": "작열",
+    "burst": "Ⅰ",
+    "order": 10037
+  },
+  "엠마": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "MG",
+    "element": "작열",
+    "burst": "Ⅰ",
+    "order": 10001
+  },
+  "모더니아": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "PILGRIM",
+    "weapon": "MG",
+    "element": "작열",
+    "burst": "Ⅲ",
+    "order": 10146
+  },
+  "솔린": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "SMG",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 10007
+  },
+  "시그널": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "SMG",
+    "element": "작열",
+    "burst": "Ⅱ",
+    "order": 10003
+  },
+  "앵커": {
+    "rarity": "SR",
+    "class": "Defender",
+    "corporation": "ELYSION",
+    "weapon": "RL",
+    "element": "풍압",
+    "burst": "Ⅰ",
+    "order": 30010
+  },
+  "차임": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "PILGRIM",
+    "weapon": "SMG",
+    "element": "철갑",
+    "burst": "Ⅱ",
+    "order": 10160
+  },
+  "쿠루미": {
+    "rarity": "SR",
+    "class": "Supporter",
+    "corporation": "ABNORMAL",
+    "weapon": "AR",
+    "element": "철갑",
+    "burst": "Ⅰ",
+    "order": 30027
+  },
+  "릴리": {
+    "rarity": "SR",
+    "class": "Supporter",
+    "corporation": "ABNORMAL",
+    "weapon": "SMG",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 30025
+  },
+  "은화": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "SR",
+    "element": "작열",
+    "burst": "Ⅱ",
+    "order": 10010
+  },
+  "크로우": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "MISSILIS",
+    "weapon": "SMG",
+    "element": "작열",
+    "burst": "Ⅲ",
+    "order": 10055
+  },
+  "라플라스 : 얼티밋 히어로": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "RL",
+    "element": "풍압",
+    "burst": "Ⅲ",
+    "order": 10087
+  },
+  "길티": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "SG",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 10060
+  },
+  "에피넬": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "SMG",
+    "element": "풍압",
+    "burst": "Ⅲ",
+    "order": 10070
+  },
+  "팬텀": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "AR",
+    "element": "수냉",
+    "burst": "Ⅲ",
+    "order": 10028
+  },
+  "길로틴": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "MG",
+    "element": "전격",
+    "burst": "Ⅲ",
+    "order": 10011
+  },
+  "도로시": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "PILGRIM",
+    "weapon": "AR",
+    "element": "수냉",
+    "burst": "Ⅰ",
+    "order": 10148
+  },
+  "신": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "MISSILIS",
+    "weapon": "AR",
+    "element": "전격",
+    "burst": "Ⅱ",
+    "order": 10061
+  },
+  "퀸(마코토)": {
+    "rarity": "SSR",
+    "class": "Attacker",
+    "corporation": "ABNORMAL",
+    "weapon": "SG",
+    "element": "작열",
+    "burst": "Ⅲ",
+    "order": 10180
+  },
+  "킬로": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "MISSILIS",
+    "weapon": "MG",
+    "element": "작열",
+    "burst": "Ⅲ",
+    "order": 10075
+  },
+  "루드밀라": {
+    "rarity": "SSR",
+    "class": "Defender",
+    "corporation": "TETRA",
+    "weapon": "SMG",
+    "element": "수냉",
+    "burst": "Ⅰ",
+    "order": 10098
+  },
+  "페퍼": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "MISSILIS",
+    "weapon": "SG",
+    "element": "풍압",
+    "burst": "Ⅰ",
+    "order": 10056
+  },
+  "로산나 : 시크 오션": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "AR",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 10127
+  },
+  "키리": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "RL",
+    "element": "풍압",
+    "burst": "Ⅲ",
+    "order": 10024
+  },
+  "퀀시": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "MISSILIS",
+    "weapon": "SMG",
+    "element": "전격",
+    "burst": "Ⅱ",
+    "order": 10065
+  },
+  "애드미": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "MISSILIS",
+    "weapon": "SR",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 10057
+  },
+  "맥스웰 : 오디너리 미케닉": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "MISSILIS",
+    "weapon": "SR",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 10088
+  },
+  "코코아": {
+    "rarity": "SSR",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "SR",
+    "element": "작열",
+    "burst": "Ⅰ",
+    "order": 10106
+  },
+  "솔져 E.G.": {
+    "rarity": "R",
+    "class": "Attacker",
+    "corporation": "ELYSION",
+    "weapon": "AR",
+    "element": "전격",
+    "burst": "Ⅲ",
+    "order": 50001
+  },
+  "프로덕트 12": {
+    "rarity": "R",
+    "class": "Attacker",
+    "corporation": "MISSILIS",
+    "weapon": "MG",
+    "element": "작열",
+    "burst": "Ⅲ",
+    "order": 50005
+  },
+  "iDoll 플라워": {
+    "rarity": "R",
+    "class": "Defender",
+    "corporation": "TETRA",
+    "weapon": "RL",
+    "element": "풍압",
+    "burst": "Ⅰ",
+    "order": 50007
+  },
+  "솔져 F.A.": {
+    "rarity": "R",
+    "class": "Defender",
+    "corporation": "ELYSION",
+    "weapon": "SG",
+    "element": "철갑",
+    "burst": "Ⅱ",
+    "order": 50002
+  },
+  "프로덕트 23": {
+    "rarity": "R",
+    "class": "Supporter",
+    "corporation": "MISSILIS",
+    "weapon": "SG",
+    "element": "풍압",
+    "burst": "Ⅱ",
+    "order": 50006
+  },
+  "iDoll 썬": {
+    "rarity": "R",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "AR",
+    "element": "철갑",
+    "burst": "Ⅲ",
+    "order": 50009
+  },
+  "프로덕트 08": {
+    "rarity": "R",
+    "class": "Supporter",
+    "corporation": "MISSILIS",
+    "weapon": "SR",
+    "element": "전격",
+    "burst": "Ⅰ",
+    "order": 50004
+  },
+  "iDoll 오션": {
+    "rarity": "R",
+    "class": "Supporter",
+    "corporation": "TETRA",
+    "weapon": "SMG",
+    "element": "수냉",
+    "burst": "Ⅰ",
+    "order": 50008
+  },
+  "솔져 O.W.": {
+    "rarity": "R",
+    "class": "Supporter",
+    "corporation": "ELYSION",
+    "weapon": "SMG",
+    "element": "작열",
+    "burst": "Ⅰ",
+    "order": 50003
+  },
+  "아이기스": {
+    "rarity": "SR",
+    "class": "Supporter",
+    "corporation": "ABNORMAL",
+    "weapon": "SMG",
+    "element": "철갑",
+    "burst": "Ⅱ",
+    "order": 30028
+  }
+}
