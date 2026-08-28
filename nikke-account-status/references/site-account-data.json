@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": "nikke-account-status/references Markdown DB",
   "cache": true,
-  "generatedAt": "2026-08-26T00:00:00+09:00",
+  "generatedAt": "2026-08-27T19:51:56.394Z",
   "account": {
     "synchro": "361",
     "power": "643690",
@@ -59,7 +59,7 @@
       "limit": "0돌",
       "skills": "1/1/1",
       "collection": "없음",
-      "overload": "없음",
+      "overload": "오버로드 없음, 장비 전부 미착용",
       "power": "2299",
       "element": "작열",
       "weapon": "SR",
