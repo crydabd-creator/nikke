@@ -1,0 +1,77 @@
+name: Import oh-my-commander static assets
+
+on:
+  push:
+    branches:
+      - codex/add-oh-my-commander-site-20260828
+
+permissions:
+  contents: write
+
+jobs:
+  import-assets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore and verify public assets
+        shell: bash
+        run: |
+          python - <<'PY'
+          from hashlib import sha256
+          from pathlib import Path, PurePosixPath
+          from zipfile import ZipFile
+
+          parts = sorted(Path(".asset-import").glob("part-*.bin"))
+          if len(parts) != 49:
+              raise SystemExit(f"expected 49 asset chunks, found {len(parts)}")
+
+          archive = Path("site-public-assets.zip")
+          with archive.open("wb") as output:
+              for part in parts:
+                  output.write(part.read_bytes())
+
+          archive_hash = sha256(archive.read_bytes()).hexdigest()
+          if archive_hash != "bfcc32eb1d83fcf0b5d83fec4568e21f9227bba943771f357509e28a7c35bc9a":
+              raise SystemExit(f"asset archive hash mismatch: {archive_hash}")
+
+          with ZipFile(archive) as bundle:
+              for info in bundle.infolist():
+                  path = PurePosixPath(info.filename)
+                  if path.is_absolute() or ".." in path.parts or not path.parts or path.parts[0] != "public":
+                      raise SystemExit(f"unsafe archive path: {info.filename}")
+              bundle.extractall("site")
+          archive.unlink()
+
+          expected = {}
+          for line in Path("site/scripts/public-assets.sha256").read_text(encoding="utf-8").splitlines():
+              if not line.strip():
+                  continue
+              digest, relative = line.split(maxsplit=1)
+              expected[relative] = digest
+
+          actual = {}
+          for path in sorted(Path("site/public").rglob("*")):
+              if path.is_file():
+                  relative = path.relative_to("site").as_posix()
+                  actual[relative] = sha256(path.read_bytes()).hexdigest()
+
+          if expected != actual:
+              missing = sorted(set(expected) - set(actual))
+              extra = sorted(set(actual) - set(expected))
+              changed = sorted(path for path in expected.keys() & actual.keys() if expected[path] != actual[path])
+              raise SystemExit(f"asset verification failed: missing={missing}, extra={extra}, changed={changed}")
+          print(f"verified {len(actual)} public assets")
+          PY
+
+      - name: Replace import chunks with restored assets
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/public
+          git rm -r -- .asset-import .github/workflows/import-oh-my-commander-assets.yml
+          git commit -m "Add oh-my-commander static assets"
+          git push
