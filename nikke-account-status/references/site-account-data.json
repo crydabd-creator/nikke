@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": "nikke-account-status/references Markdown DB",
   "cache": true,
-  "generatedAt": "2026-10-23T00:37:53.480Z",
+  "generatedAt": "2026-10-23T01:01:04.858Z",
   "account": {
     "synchro": "401",
     "power": "643690",
@@ -132,7 +132,7 @@
       "skills": "10/10/10",
       "collection": "SR 소장품 낮잠 지휘관 인형 Ltd. 15단계",
       "overload": "4부위 (+5/+3/+5/+0)",
-      "power": "116313",
+      "power": "154999",
       "element": "풍압",
       "weapon": "SR",
       "burst": "Ⅲ",
