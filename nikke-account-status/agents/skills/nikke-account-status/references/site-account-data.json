@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": "nikke-account-status/references Markdown DB",
   "cache": true,
-  "generatedAt": "2026-10-23T00:29:14.421Z",
+  "generatedAt": "2026-10-23T00:37:53.480Z",
   "account": {
     "synchro": "401",
     "power": "643690",
@@ -321,6 +321,7 @@
       "name": "아니스 : 스파클링 서머(수니스)",
       "limit": "0돌",
       "skills": "7/7/7",
+      "collection": "SR 소장품 5단계",
       "overload": "4부위 (+0/+0/+0/+0)"
     },
     {
@@ -359,12 +360,49 @@
     {
       "name": "루드밀라 : 윈터 오너",
       "skills": "10/10/10",
+      "collection": "SR 소장품 15단계",
       "overload": "4부위 (+0/+0/+0/+0)"
     },
     {
       "name": "니힐리스타",
       "skills": "1/1/1",
       "overload": "없음"
+    },
+    {
+      "name": "신데렐라",
+      "limit": "0돌",
+      "skills": "7/7/7",
+      "collection": "SR 소장품 5단계",
+      "overload": "4부위 (+0/+0/+0/+0)",
+      "power": "47696",
+      "element": "전격",
+      "weapon": "RL",
+      "burst": "Ⅲ",
+      "class": "Defender"
+    },
+    {
+      "name": "아니스 : 스파클링 서머",
+      "limit": "0돌",
+      "skills": "7/7/7",
+      "collection": "SR 소장품 5단계",
+      "overload": "4부위 (+0/+0/+0/+0)",
+      "power": "47802",
+      "element": "전격",
+      "weapon": "SG",
+      "burst": "Ⅲ",
+      "class": "Supporter"
+    },
+    {
+      "name": "플로라",
+      "limit": "0돌",
+      "skills": "4/7/7",
+      "collection": "SSR 애장품 3단계",
+      "overload": "4부위 (+0/+0/+0/+0)",
+      "power": "2554",
+      "element": "전격",
+      "weapon": "MG",
+      "burst": "Ⅱ",
+      "class": "Supporter"
     },
     {
       "name": "브리드 : 사일런트 트랙",
@@ -596,28 +634,6 @@
       "weapon": "SMG",
       "burst": "Ⅰ",
       "class": "Attacker"
-    },
-    {
-      "name": "아니스 : 스파클링 서머",
-      "limit": "0돌",
-      "power": "47802",
-      "skills": "7/7/7",
-      "overload": "4부위 (+0/+0/+0/+0)",
-      "element": "전격",
-      "weapon": "SG",
-      "burst": "Ⅲ",
-      "class": "Supporter"
-    },
-    {
-      "name": "신데렐라",
-      "limit": "0돌",
-      "power": "47696",
-      "skills": "7/7/7",
-      "overload": "4부위 (+0/+0/+0/+0)",
-      "element": "전격",
-      "weapon": "RL",
-      "burst": "Ⅲ",
-      "class": "Defender"
     },
     {
       "name": "타키나",
@@ -1523,17 +1539,6 @@
       "power": "2554",
       "skills": "1/1/1",
       "overload": "없음",
-      "element": "전격",
-      "weapon": "MG",
-      "burst": "Ⅱ",
-      "class": "Supporter"
-    },
-    {
-      "name": "플로라",
-      "limit": "0돌",
-      "power": "2554",
-      "skills": "4/7/7",
-      "overload": "4부위 (+0/+0/+0/+0)",
       "element": "전격",
       "weapon": "MG",
       "burst": "Ⅱ",
