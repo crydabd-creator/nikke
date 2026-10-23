@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "source": "nikke-account-status/references Markdown DB",
   "cache": true,
-  "generatedAt": "2026-08-27T19:51:56.394Z",
+  "generatedAt": "2026-10-23T00:29:14.421Z",
   "account": {
-    "synchro": "361",
+    "synchro": "401",
     "power": "643690",
     "outpost": "538",
     "coreDust": "102",
@@ -21,7 +21,7 @@
     {
       "name": "유키코",
       "limit": "0돌",
-      "skills": "7/7/7",
+      "skills": "7/8/8",
       "collection": "SR 소장품 쇼핑 지휘관 인형 Ltd. 15단계",
       "overload": "4부위 (+0/+0/+0/+0)",
       "power": "85681",
@@ -308,36 +308,43 @@
     {
       "name": "소다 : 트윙클링 바니(바니 소다)",
       "limit": "2돌",
-      "skills": "1/1/1"
+      "skills": "1/1/1",
+      "overload": "없음"
     },
     {
       "name": "사쿠라 : 블룸 인 서머(수로시)",
       "limit": "0돌",
-      "skills": "1/1/1"
+      "skills": "1/1/1",
+      "overload": "없음"
     },
     {
       "name": "아니스 : 스파클링 서머(수니스)",
       "limit": "0돌",
-      "skills": "1/1/1"
+      "skills": "7/7/7",
+      "overload": "4부위 (+0/+0/+0/+0)"
     },
     {
       "name": "라피: 레드 후드",
-      "limit": "2돌"
+      "limit": "2돌",
+      "skills": "10/10/10",
+      "overload": "4부위 (+5/+5/+5/+0)"
     },
     {
       "name": "브리드 : 사일런트 트랙(브리드 이격)",
-      "limit": "0돌"
+      "limit": "0돌",
+      "skills": "7/8/8",
+      "overload": "4부위 (+0/+0/+0/+0)"
     },
     {
       "name": "미하라 : 본딩 체인(미하라 오버스펙)",
       "limit": "1돌",
-      "skills": "7/7/7",
+      "skills": "10/10/9",
       "overload": "4부위 (+0/+0/+0/+0)"
     },
     {
       "name": "디젤 : 윈터 스위츠(디젤 이격)",
       "limit": "0돌",
-      "skills": "7/7/7",
+      "skills": "7/10/10",
       "overload": "4부위 (+0/+0/+0/+0)"
     },
     {
@@ -345,10 +352,25 @@
       "skills": "전원 미육성"
     },
     {
+      "name": "메이든 : 아이스 로즈",
+      "skills": "1/1/1",
+      "overload": "없음"
+    },
+    {
+      "name": "루드밀라 : 윈터 오너",
+      "skills": "10/10/10",
+      "overload": "4부위 (+0/+0/+0/+0)"
+    },
+    {
+      "name": "니힐리스타",
+      "skills": "1/1/1",
+      "overload": "없음"
+    },
+    {
       "name": "브리드 : 사일런트 트랙",
       "limit": "0돌",
       "power": "96821",
-      "skills": "7/7/7",
+      "skills": "7/8/8",
       "overload": "4부위 (+0/+0/+0/+0)",
       "element": "작열",
       "weapon": "SG",
@@ -392,7 +414,7 @@
       "name": "디젤 : 윈터 스위츠",
       "limit": "0돌",
       "power": "91421",
-      "skills": "7/7/7",
+      "skills": "7/10/10",
       "overload": "4부위 (+0/+0/+0/+0)",
       "element": "작열",
       "weapon": "RL",
@@ -524,7 +546,7 @@
       "name": "헬름 : 아쿠아마린",
       "limit": "0돌",
       "power": "57887",
-      "skills": "1/7/1",
+      "skills": "4/7/1",
       "overload": "없음",
       "element": "철갑",
       "weapon": "AR",
@@ -579,8 +601,8 @@
       "name": "아니스 : 스파클링 서머",
       "limit": "0돌",
       "power": "47802",
-      "skills": "1/1/1",
-      "overload": "없음",
+      "skills": "7/7/7",
+      "overload": "4부위 (+0/+0/+0/+0)",
       "element": "전격",
       "weapon": "SG",
       "burst": "Ⅲ",
@@ -590,8 +612,8 @@
       "name": "신데렐라",
       "limit": "0돌",
       "power": "47696",
-      "skills": "1/1/1",
-      "overload": "없음",
+      "skills": "7/7/7",
+      "overload": "4부위 (+0/+0/+0/+0)",
       "element": "전격",
       "weapon": "RL",
       "burst": "Ⅲ",
@@ -931,7 +953,7 @@
       "name": "미하라 : 본딩 체인",
       "limit": "1돌",
       "power": "23524",
-      "skills": "7/7/7",
+      "skills": "10/10/9",
       "overload": "4부위 (+0/+0/+0/+0)",
       "element": "작열",
       "weapon": "MG",
@@ -1510,8 +1532,8 @@
       "name": "플로라",
       "limit": "0돌",
       "power": "2554",
-      "skills": "1/1/1",
-      "overload": "없음",
+      "skills": "4/7/7",
+      "overload": "4부위 (+0/+0/+0/+0)",
       "element": "전격",
       "weapon": "MG",
       "burst": "Ⅱ",
