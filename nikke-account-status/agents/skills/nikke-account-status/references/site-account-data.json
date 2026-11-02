@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": "nikke-account-status/references Markdown DB",
   "cache": true,
-  "generatedAt": "2026-10-30T14:28:38.124Z",
+  "generatedAt": "2026-11-02T16:10:53.822Z",
   "account": {
     "synchro": "401",
     "power": "643690",
@@ -20,9 +20,10 @@
   "nikkes": [
     {
       "name": "마리안 : 퀸",
+      "limit": "1돌",
       "skills": "10/10/10",
       "collection": "SR 소장품 15단계",
-      "overload": "4부위 (강화 미확인), 1우코 / 4공 / 3장탄 / 2크댐"
+      "overload": "4부위 (강화 미확인), 4우코 / 4공 / 2크댐 / 장탄 0줄"
     },
     {
       "name": "유키코",
