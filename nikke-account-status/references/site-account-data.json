@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": "nikke-account-status/references Markdown DB",
   "cache": true,
-  "generatedAt": "2026-11-02T16:10:53.822Z",
+  "generatedAt": "2026-11-15T00:00:00.000Z",
   "account": {
     "synchro": "401",
     "power": "643690",
@@ -23,7 +23,13 @@
       "limit": "1돌",
       "skills": "10/10/10",
       "collection": "SR 소장품 15단계",
-      "overload": "4부위 (강화 미확인), 4우코 / 4공 / 2크댐 / 장탄 0줄"
+      "overload": "4부위 (+5/+5/+5/+0), 4우코 / 4공 / 2크댐 / 2장탄 (졸업)"
+    },
+    {
+      "name": "홍련 : 신살",
+      "skills": "10/10/10",
+      "collection": "SR 소장품 6단계",
+      "overload": "4부위 (+0/+0/+0/+0), 3우코 / 2공 / 2크댐 / 1장탄"
     },
     {
       "name": "유키코",
@@ -111,7 +117,7 @@
     },
     {
       "name": "스노우 화이트 : 헤비암즈",
-      "limit": "1돌",
+      "limit": "2돌",
       "skills": "10/10/10",
       "collection": "SR 소장품 낮잠 지휘관 인형 Ltd. 15단계",
       "overload": "4부위 (+5/+4/+5/+0)",
@@ -123,7 +129,7 @@
     },
     {
       "name": "라피 : 레드 후드",
-      "limit": "2돌",
+      "limit": "3돌",
       "skills": "10/10/10",
       "collection": "SR 소장품 쇼핑 지휘관 인형 Ltd. 15단계",
       "overload": "4부위 (+5/+5/+5/+0)",
@@ -333,7 +339,7 @@
     },
     {
       "name": "라피: 레드 후드",
-      "limit": "2돌",
+      "limit": "3돌",
       "skills": "10/10/10",
       "overload": "4부위 (+5/+5/+5/+0)"
     },
@@ -732,7 +738,7 @@
     },
     {
       "name": "슈가",
-      "limit": "0돌",
+      "limit": "1돌",
       "power": "43799",
       "skills": "1/1/1",
       "overload": "없음",
@@ -1047,7 +1053,7 @@
     },
     {
       "name": "아르카나",
-      "limit": "3돌",
+      "limit": "1코강",
       "power": "2958",
       "skills": "1/1/1",
       "overload": "없음",
