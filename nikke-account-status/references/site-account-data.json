@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": "nikke-account-status/references Markdown DB",
   "cache": true,
-  "generatedAt": "2026-11-15T00:00:00.000Z",
+  "generatedAt": "2026-11-15T03:25:00.000Z",
   "account": {
     "synchro": "401",
     "power": "643690",
@@ -20,7 +20,7 @@
   "nikkes": [
     {
       "name": "마리안 : 퀸",
-      "limit": "1돌",
+      "limit": "3돌",
       "skills": "10/10/10",
       "collection": "SR 소장품 15단계",
       "overload": "4부위 (+5/+5/+5/+0), 4우코 / 4공 / 2크댐 / 2장탄 (졸업)"
