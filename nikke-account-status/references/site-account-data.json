@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": "nikke-account-status/references Markdown DB",
   "cache": true,
-  "generatedAt": "2026-11-17T06:00:00.000Z",
+  "generatedAt": "2026-11-17T07:03:00.000Z",
   "account": {
     "synchro": "401",
     "power": "643690",
@@ -71,7 +71,7 @@
       "name": "아르카나 : 포츈 메이트",
       "limit": "2돌",
       "skills": "7/7/7",
-      "collection": "R 소장품 6단계",
+      "collection": "R 소장품 10단계",
       "overload": "오버로드 명함작 (부위별 옵션·강화 미확인)",
       "power": "7551",
       "element": "작열",
