@@ -68,6 +68,18 @@
       "class": "Supporter"
     },
     {
+      "name": "아르카나 : 포츈 메이트",
+      "limit": "2돌",
+      "skills": "7/7/7",
+      "collection": "R 소장품 6단계",
+      "overload": "오버로드 명함작 (부위별 옵션·강화 미확인)",
+      "power": "7551",
+      "element": "작열",
+      "weapon": "SG",
+      "burst": "Ⅱ",
+      "class": "Attacker"
+    },
+    {
       "name": "코코아",
       "limit": "0돌",
       "skills": "1/1/1",
@@ -1017,18 +1029,6 @@
       "weapon": "SMG",
       "burst": "Ⅲ",
       "class": "Attacker"
-    },
-    {
-      "name": "아르카나 : 포츈 메이트",
-      "limit": "2돌",
-      "power": "7551",
-      "skills": "7/7/7",
-      "overload": "오버로드 명함작 (부위별 옵션·강화 미확인)",
-      "element": "작열",
-      "weapon": "SG",
-      "burst": "Ⅱ",
-      "class": "Attacker",
-      "collection": "R 소장품 6단계"
     },
     {
       "name": "노아",
